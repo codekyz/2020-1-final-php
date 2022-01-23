@@ -1,0 +1,157 @@
+
+body {
+  background-color: lightblue;
+}
+#top {
+  position: relative;
+  border: 1px solid white;
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+#logo {
+  font-size: 30px;
+  margin: 10px;
+  display: inline-block;
+}
+
+#login {
+  margin-left: 20px;
+  display: inline-block;
+}
+
+a:link, a:visited {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  color: #777;
+  text-decoration: none;
+}
+
+#content {
+  position: relative;
+  background-color: #fff;
+  border: 1px solid white;
+  padding: 10px;
+  margin: 10px;
+}
+
+#title {
+  font-size: 20px;
+  margin: 10px;
+  font-weight: bold;
+}
+
+#wrap {
+  padding: 10px;
+}
+
+#writer {
+  margin: 10px;
+}
+
+#review {
+  margin: 10px;
+}
+
+#mtitle {
+  display: inline-block;
+  margin: 5px;
+}
+
+#score {
+  display: inline-block;
+  margin: 5px;
+}
+
+#comment {
+  margin: 5px;
+}
+
+#submit {
+  margin: 5px;
+}
+
+#page {
+  margin : 10px;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin:0;
+  padding:0;
+}
+
+li {
+  padding:3px;
+}
+
+li > input{
+  padding: 0px;
+  margin: -3px;
+}
+
+button {
+  margin-left: 5px;
+}
+
+#form {
+  margin: 20px;
+}
+
+#left, #right {
+  margin: 10px;
+  display: inline-block;
+}
+
+span {
+  font-size: 12px;
+  padding: 5px;
+}
+
+#writer_title {
+  margin: 10px;
+  border-top: 1px solid gray;
+}
+
+#title1 {
+  font-weight: bold;
+  position: absolute;
+  left: 20px;
+}
+
+#title2 {
+  position: absolute;
+  right: 20px;
+}
+
+.inline {
+  display: inline-block;
+}
+
+#list {
+  margin: 20px;
+  padding: 10px;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+#comment {
+  height: 100%;
+}
+
+#value {
+  font-size: 15px;
+}
+
+#star {
+  font-size: 20px;
+  height: 100%;
+  margin-right: 50px;
+}
